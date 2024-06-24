@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Sanba</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./imagens/favicon S.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Projeto Sanba</h1>
+            </div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SOBRE NOS</a></li>
+                <li><a href="#">CONTATOS</a></li>
+            </ul>
+            <div class="menu-icon" onclick="menuShow()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+       <!--<div class="carrosel">
+            <button class="prev">&lt;</button>
+            <div class="container">
+                <img src="./imagens/img01.jpg" alt="" srcset="">
+                <img src="./imagens/img02.jpg" alt="" srcset="">
+                <img src="./imagens/img05.jpg" alt="" srcset="">
+            </div>
+            <button class="next">&gt;</button>
+        </div>--> 
+        <!--acordeao-->
+        <button id = "TP" class="accordion">OBJETIVOS</button>
+        <div class="panel">
+            <p>Nosso objetivo é preencher a lacuna entre o cidadão e o acesso aos serviços de saneamento básico por meio de um software que atua como ponte entre o cliente e o provedor de serviços sanitários. Isso tornará o sistema sanitário mais eficiente e menos burocrático , melhorando a experiência do usuário e facilitando o acesso aos serviços essenciais de saneamento.</p>
+        </div>
+    
+        <button id = "TP" class="accordion">DETALHES DO PROJETO</button>
+        <div class="panel">
+            <p>1. Um software que facilita o cadastro de contratação de serviço de saneamento básico <br>
+
+                2. O cidadão terá acesso ao sistema em seu celular e realizará o seu própio cadastro no software <br>
+                
+                3. Será possível um controle de onde e quantos serviços estão sendo realizados na cidade, assim servindo como um banco de dados</p>
+        </div>
+    
+        <button id = "TP" class="accordion">EQUIPE</button>
+        <div class="panel">
+            <p id = "equipe">
+                &nbsp; <strong>Patrick:</strong> <br> Gerente de Projetos  - 
+                    &nbsp;&nbsp;Responsável por definir seus objetivos, desenvolver um plano detalhado, alocar recursos, supervisionar a execução das atividades, gerenciar riscos, monitorar o progresso, resolver problemas e comunicar-se com todas as partes interessadas envolvidas. <br>
+                &nbsp; <strong> Gustavo:</strong>  <br> Desenvolvedor front-end - 
+                    &nbsp;&nbsp; Desempenha um papel fundamental no desenvolvimento front-end e implementação de sistemas de informação <br>
+                &nbsp; <strong>Alexander:</strong> <br> Analista de Requisitos -
+                    &nbsp;&nbsp; Facilita a comunicação entre os usuários finais e a equipe de desenvolvimento de software, garantindo que os requisitos do projeto sejam entendidos, documentados e atendidos de forma eficaz. <br>
+                &nbsp;<strong>Gabriel:</strong><br> Desenvolvedor Web -
+                    &nbsp;&nbsp; Responsável por supervisionar e coordenar as atividades relacionadas ao desenvolvimento, manutenção e melhoria de projetos web. <br>
+                &nbsp;<strong>Debora:</strong> <br> Analista de Sistemas -
+                    &nbsp;&nbsp;Ajuda e coordena o desenvolvimento da documentação dos produtos a serem desenvolvidos.
+                </p>
+        </div>
+        <!--fim acordeao-->
+        <h2>IMAGENS</h2>
+        <!--lightbox-->
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="img01.jpg" alt="Imagem 1" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="img02.jpg" alt="Imagem 2" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="img03.jpg" alt="Imagem 3" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="img04.jpg" alt="Imagem 4" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="img05.jpg" alt="Imagem 5" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="img06.jpg" alt="Imagem 6" class="gallery-image">
+            </div>
+            <!-- Adicione mais imagens conforme necessário -->
+        </div>
+    
+        <div class="lightbox" id="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-image" id="lightbox-image">
+            <div class="lightbox-controls">
+                <span class="prev">&#10094;</span>
+                <span class="next">&#10095;</span>
+            </div>
+        </div>
+    
+        <!--fim lightbox-->
+
+        <h1>PROJETO SANBA</h1>
+        <h2>SERVIÇOS PRÁTICOS DE SANEAMENTO</h2>
+
+    <div class="sessões">
+        <section class="primeira">
+            <img src="./imagens/vista-da-rua.png" alt="" srcset="">
+            <h6>missão visão valores</h6>
+            <p>No Planejamento Estratégico definimos nossos valores, que representam nosso compromisso com as pessoas, a sociedade, parceiros e acionistas. Conheça alguns pontos.</p>
+            
+        
+        </section>
+
+        <section class="segunda">
+            <img src="./imagens/alinhamento-do-grafico.png" alt="" srcset="">
+            <h6>quem somos</h6>
+            <p>Alunos do curso de Engenharia de Software, atualmente no 2º período elaborando um sistema o qual irá beneficiar a população maricaense no geral com boa qualidade </p>
+        </section>
+
+        <section class="terceira">
+            <img src="./imagens/seta-de-alvo.png" alt="" srcset="">
+            <h6>objetivos</h6>
+            <p>Desenvolvemos sistemas de comunicação eficientes que permitem aos clientes acessarem informações e acessarem serviços de maneira intuitiva e eficiente.</p>
+    
+          </section>
+      </div>
+      
+    </main>
+
+   <footer>
+    <div id="footer_content">
+        <div id="footer_contacts">
+            <h1>Projeto Sanba</h1>
+            <p>Saneamanto Fácil e Prático</p>
+
+            <div class="tooltip" id="footer_social_media">
+                <a href="https://www.instagram.com" target="_blank" class="footer-link" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                    
+                <a href="https://github.com" target="_blank" class="footer-link" id="github">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                    
+                <a href="https://api.whatsapp.com" class="footer-link" target="_blank" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                
+                <span class="tooltiptext">CLIQUE PARA SABER MAIS</span>
+                
+
+
+            </div>
+        </div>
+
+        <ul class="footer-list">
+            <li>
+                <h3>Sanemar</h3>
+            </li>
+            <li>
+                <a href="https://sanemar-sa.com.br/" class="footer-link" target="_blank">Site Oficial</a>
+            </li>
+
+            <li>
+                <a href="https://sanemar-sa.com.br/adequacao-e-manutencao-de-esgotamento-sanitario/" target="_blank" class="footer-link">Serviços</a>
+            </li>
+
+            <li>
+                <a href="https://sanemar-sa.com.br/contato/" class="footer-link" target="_blank">Contatos</a>
+            </li>
+
+        </ul>
+
+        <ul class="footer-list">
+            <li>
+                <h3>Progresso</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Mvp</a>
+            </li>
+
+            <li>
+                <a href="#" class="footer-link">Site</a>
+            </li>
+
+            <li>
+                <a href="#" class="footer-link">Aplicativo</a>
+            </li>
+
+        </ul>
+
+        <div id="footer_subscribe">
+            <h3>Contate-nos</h3>
+            <p>
+                Digite seu email 
+            </p>
+
+            <div id="input_group">
+                <input type="email" id="email">
+                <button>
+                    <i class="fa-regular fa-envelope"></i>
+                </button>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <div id="footer_copyright">
+        <p>&#169
+        2024 Todos os direitos reservados 
+   </footer>
+
+    
+
+</body>
+
+<script src="script.js"></script>
+</html>
